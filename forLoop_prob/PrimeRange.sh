@@ -4,7 +4,7 @@
 echo "Enter a Range of number (a to b) : "
 read a
 read b
-#echo "Prime numbers in the given range are :"
+
 if [ $b -lt 2 ]
 then
         echo "no prime"
@@ -14,12 +14,10 @@ echo "Prime numbers in the given range are :"
 
 if [  $(($a%2)) == 0 ]
 then
-
-        #a=$(($a + 1 ))
 	((a++))
 fi
-#a=$[$a + 1]
-for ((i=$a; i<=$b; i=i +2 ))
+
+for ((i=$a; i<=$b; i=i + 2 ))
 do
         check=0
 
