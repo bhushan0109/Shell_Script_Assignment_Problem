@@ -3,7 +3,7 @@
 #read a number 1 ,10,100,1000 etc and display unit,ten,hundred..................
 echo "Enter the number"
 read number
-#len=`echo $number |awk '{print length}'`
+
 #Using the‘#’ symbol to count the length of a string
  N=${#number}
 if [ $N -eq 1 ];then
