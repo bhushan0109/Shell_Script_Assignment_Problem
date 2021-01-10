@@ -23,9 +23,11 @@ done
 if [ $headCounter -eq 11 ]
 then
         echo Head Wins
+        break
 elif [ $tailCounter -eq 11 ]
 then
         echo Tail Wins
+        break
 else
         echo Tie
 fi
