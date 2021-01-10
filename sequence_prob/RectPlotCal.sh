@@ -12,6 +12,17 @@ echo "total area $AREA in squre feet"
 #1 ACRE =435660 SQURE FEET
 #acre=$(( $AREA / 43560))
 #echo $acre
+
+
+
+#TO FEET TO METER CONVERSION
+sf=$(( 60 * 40 ))
+echo " $sf  squre feet"
+
+
+b=`echo $sf 0.0929 | awk '{ print $1 * $2 }'`
+echo "$b in squre meter"
+#====================================
 acre=`echo $AREA 43560 | awk '{ print $1/$2 }'`
 echo "$acre in acres"
 
