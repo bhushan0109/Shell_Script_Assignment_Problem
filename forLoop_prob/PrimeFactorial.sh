@@ -1,7 +1,5 @@
 #!/bin/bash -x
 
-#!/bin/bash -x
-
 # USER INPUT
 read -p "Enter the number: " number
 
