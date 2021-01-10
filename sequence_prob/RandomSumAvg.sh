@@ -13,6 +13,6 @@ sum=$((sum+x))
 
  done
 echo "sum is $sum "
- #avg=$(( $sum / 5 ))
+ 
 avg=`echo $sum 5 |awk '{ print $1/$2 }'`
 echo "avg is $avg "
