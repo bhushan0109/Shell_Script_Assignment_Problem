@@ -4,7 +4,7 @@
 echo "Please think of a number between 0 and 100! "
  read user_num
 li=1
-hi=1000
+hi=100
 mi=$((($li + $hi) / 2 ))
 
 
