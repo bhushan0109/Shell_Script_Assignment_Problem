@@ -1,13 +1,11 @@
-#! /bin/bash -x
-#QUE 1.
-#write a program the read 5 random  with 3 digit values and then o/p max and min
+#!/bin/bash -x
 max=0
-for x in $(seq 5 );
+for (( x=1;x<=5;x++ ))
 do
 
 i=${RANDOM:0:3}
 echo $i
-if [ $x -eq 1 ]; 
+if [ $x -eq 1 ];
 then
         min=$i
 fi
